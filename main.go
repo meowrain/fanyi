@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-resty/resty/v2"
 	"os"
+
+	"github.com/go-resty/resty/v2"
+
 	"translate-cli/utils"
 )
 
@@ -22,5 +24,4 @@ func main() {
 
 	// 输出解析结果
 	utils.ParseAndPrintDictInChinese(string(resp.Body()))
-
 }

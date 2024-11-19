@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"strings"
+
 	"translate-cli/models"
 
 	"github.com/fatih/color"
